@@ -12,12 +12,14 @@ body {
     background-attachment: fixed;
 }
 
-.header .header-content {
+.header-content {
     margin: 20px;
+    margin-bottom: 30px;
 }
 
-.header .header-content a {
+.header-content a {
     text-decoration: none;
+    transition: 0.3s;
     border-radius: 4px;
     font-size: 22px; 
     padding-left: 20px;
@@ -29,14 +31,14 @@ body {
     text-align: center;
 }
 
-.header .header-content a:hover {
+.header-content a:hover {
     background-color: #bdbdbd;
 }
 
-/* .header .header-content .header-logo {
-    font-weight: bold;
-} */
-
-.header .header-content .header-right {
+.header-right {
     float: right;
+}
+
+.header-content img {
+    height: 40px;
 }
