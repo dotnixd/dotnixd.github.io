@@ -53,5 +53,8 @@ body {
     margin-top: 17%;
     margin-right: 24%;
     color: black;
-    float: right;
+}
+
+.content {
+    display: flex;
 }
