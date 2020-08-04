@@ -50,11 +50,19 @@ body {
 }
 
 .content-label {
-    margin-top: 17%;
+    margin-top: 5%;
     margin-right: 24%;
+    margin-left: 20%;
     color: black;
 }
 
-.content {
-    display: flex;
+@media screen and (min-width: 600px) {
+    .content {
+        display: flex;
+    }
+    
+    .content-label {
+        margin-top: 17%;
+        margin-left: 0%;
+    }
 }
